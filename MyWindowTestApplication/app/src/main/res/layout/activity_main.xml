@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#88ffffff"
+    tools:context="com.example.pdd.mywindowtestapplication.MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="SendIntData"/>
+        <EditText
+            android:id="@+id/IntType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50sp"
+            android:minWidth="50sp"
+            android:textSize="20sp"
+            android:shadowColor="#FF0000"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/IntValue"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50sp"
+            android:minHeight="50sp"
+            android:textSize="20sp"
+            android:shadowColor="#FF0000"
+            android:inputType="numberDecimal"
+            />
+        <Button
+            android:id="@+id/SendIntData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="发送"
+            />
+         <Button
+             android:id="@+id/GetRNG"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="GetRNG"/>
+        <EditText
+            android:id="@+id/ValueRNG"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50sp"
+            android:minHeight="50sp"
+            android:textSize="20sp"
+            android:shadowColor="#FF0000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="inputPicture"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+
+            android:text="SendFloatData"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/FloatType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:minWidth="50sp"
+            android:minHeight="50sp"
+            android:shadowColor="#FF0000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/FloatValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:minWidth="50sp"
+            android:minHeight="50sp"
+            android:shadowColor="#FF0000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/SendFloatData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="发送" />
+
+        <Button
+            android:id="@+id/GetSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GetSpeed" />
+
+        <EditText
+            android:id="@+id/ValueSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50sp"
+            android:minHeight="50sp"
+            android:shadowColor="#CC00FF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/getPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="getPicture"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="3"
+        android:text="默认打开/hs591"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="默认打开/hs532" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="激活全景"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
