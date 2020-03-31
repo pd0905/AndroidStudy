@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IPCSamples-master.iml" filepath="$PROJECT_DIR$/IPCSamples-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidl_client/aidl_client.iml" filepath="$PROJECT_DIR$/aidl_client/aidl_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidl_server/aidl_server.iml" filepath="$PROJECT_DIR$/aidl_server/aidl_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binder_pool_client/binder_pool_client.iml" filepath="$PROJECT_DIR$/binder_pool_client/binder_pool_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binder_pool_client2/binder_pool_client2.iml" filepath="$PROJECT_DIR$/binder_pool_client2/binder_pool_client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binder_pool_server/binder_pool_server.iml" filepath="$PROJECT_DIR$/binder_pool_server/binder_pool_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messenger_client/messenger_client.iml" filepath="$PROJECT_DIR$/messenger_client/messenger_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messenger_server/messenger_server.iml" filepath="$PROJECT_DIR$/messenger_server/messenger_server.iml" />
+    </modules>
+  </component>
+</project>
